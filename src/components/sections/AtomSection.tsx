@@ -1,10 +1,8 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { 
-  Heart, Star, Clock, Shield, User, Mail, Bell, 
-  Settings, Search, Menu, Plus, Minus, Check, X,
-  ArrowRight, Edit3, Trash2, Download, Upload, Play
-} from "lucide-react";
+  Heart, 
+  Settings, Search, Menu, Plus, X,} from "lucide-react";
 import { Badge } from "../ui/badge";
 import { Button } from "../ui/button";
 import { Input } from "../ui/input";
