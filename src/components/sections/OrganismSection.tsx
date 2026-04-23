@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { 
   Menu, Bell, User, Search, Home, Settings, Mail, 
   Star, Heart, ShoppingCart, ChevronDown, Plus, 
-  Edit3, Trash2, Check, X, Clock, Minus
+   Check, Minus
 } from "lucide-react";
 import { Badge } from "../ui/badge";
 import { Button } from "../ui/button";

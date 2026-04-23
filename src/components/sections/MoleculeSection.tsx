@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Search, Mail, Lock, Calendar, Upload, Star, ChevronDown, Check, X, Plus, Minus } from "lucide-react";
+import { Search, Lock, Calendar, Upload, Star, ChevronDown, Check, X, Plus, Minus } from "lucide-react";
 import { Button } from "../ui/button";
 import { Input } from "../ui/input";
 import { Label } from "../ui/label";
