@@ -1,0 +1,81 @@
+{
+  "compilerOptions": {
+    /* =========================
+       🔧 CORE COMPILATION
+    ========================= */
+    "target": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+
+    /* =========================
+       🔒 STRICT TYPE SAFETY
+    ========================= */
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "useUnknownInCatchVariables": true,
+
+    /* =========================
+       🧹 CODE QUALITY
+    ========================= */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+
+    /* =========================
+       🛡️ SAFETY + IMMUTABILITY
+    ========================= */
+    "exactOptionalPropertyTypes": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+
+    /* =========================
+       📦 MODULE + IMPORT CONTROL
+    ========================= */
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+
+    /* =========================
+       ⚡ PERFORMANCE
+    ========================= */
+    "skipLibCheck": true,
+
+    /* =========================
+       🧠 PATH ALIASES (MODERN)
+    ========================= */
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+
+    /* =========================
+       🚫 JS CONTROL
+    ========================= */
+    "allowJs": false,
+    "checkJs": false,
+
+    /* =========================
+       🔍 DEBUGGING
+    ========================= */
+    "sourceMap": true,
+
+    /* =========================
+       🚀 FUTURE PROOF
+    ========================= */
+    "ignoreDeprecations": "6.0"
+  },
+
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
