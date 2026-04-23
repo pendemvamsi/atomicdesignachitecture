@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { 
-  Heart, 
-  Settings, Search, Menu, Plus, X,} from "lucide-react";
+import { Heart, Star, Settings, Bell, Check, X, Plus, Minus } from "lucide-react";
 import { Badge } from "../ui/badge";
 import { Button } from "../ui/button";
+import { Mail } from "lucide-react";
+import { Menu, Search } from "lucide-react";
 import { Input } from "../ui/input";
 
 const atomCategories = [

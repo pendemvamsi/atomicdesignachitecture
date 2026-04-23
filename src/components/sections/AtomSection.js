@@ -1,7 +1,7 @@
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Heart, Settings, Search, Menu, Plus, X, } from "lucide-react";
+import { Heart, Star, Settings, Mail, Bell, Check, X, Plus, Minus } from "lucide-react";
 import { Badge } from "../ui/badge";
 import { Button } from "../ui/button";
 import { Input } from "../ui/input";
