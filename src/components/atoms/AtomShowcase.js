@@ -6,7 +6,7 @@ import { Textarea } from "../ui/textarea";
 import { Label } from "../ui/label";
 import { Badge } from "../ui/badge";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
-import { Heart, Settings, Check, X, Plus } from "lucide-react";
+import { Heart, Star, Settings, Mail, Bell, Check, X, Plus, Minus } from "lucide-react";
 export function AtomShowcase({ componentName }) {
     const renderComponent = () => {
         switch (componentName) {
