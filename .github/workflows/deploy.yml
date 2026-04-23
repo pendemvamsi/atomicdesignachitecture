@@ -1,4 +1,4 @@
-name: Deploy Vite React App to GitHub Pages
+name: Deploy Vite React App
 
 on:
 push:
@@ -10,19 +10,11 @@ contents: read
 pages: write
 id-token: write
 
-concurrency:
-group: pages
-cancel-in-progress: true
-
 jobs:
 deploy:
 runs-on: ubuntu-latest
 
 ```
-environment:
-  name: github-pages
-  url: ${{ steps.deployment.outputs.page_url }}
-
 steps:
   - name: Checkout
     uses: actions/checkout@v4
@@ -32,18 +24,17 @@ steps:
     with:
       node-version: 18
 
-  - name: Install dependencies
+  - name: Install
     run: npm install
 
   - name: Build
     run: npm run build
 
-  - name: Upload artifact
+  - name: Upload
     uses: actions/upload-pages-artifact@v3
     with:
-      path: ./dist
+      path: dist
 
   - name: Deploy
-    id: deployment
     uses: actions/deploy-pages@v4
 ```
