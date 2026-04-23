@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { 
-  Menu, Bell, User, Search, Home, Settings, Mail, 
-  Star, Heart, ShoppingCart, ChevronDown, Plus, 
+   Bell, User, Search, Home, Settings, Mail, 
+  Star, Heart, ShoppingCart, Plus, 
    Check, Minus
 } from "lucide-react";
 import { Badge } from "../ui/badge";

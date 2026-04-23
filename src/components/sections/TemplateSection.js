@@ -1,7 +1,7 @@
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Layout, Sidebar, Columns, Grid, Maximize, Layers, Split } from "lucide-react";
+import { Layout } from "lucide-react";
 import { Badge } from "../ui/badge";
 const templates = [
     {
